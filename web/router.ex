@@ -18,7 +18,7 @@ defmodule Ex1.Router do
 
     post "/populator", PopulatorController, :populate
 
-    # resources "/movies", MovieController
+    resources "/movies", MovieController
   end
 
   # Other scopes may use custom stacks.

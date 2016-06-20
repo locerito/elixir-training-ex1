@@ -1,0 +1,6 @@
+<div class="movie">
+  <h2><%= @movie.title %>, <%= @movie.year %></h2>
+  <img src=<%= @movie.cover %>></img>
+  <p><%= @movie.plot %></p>
+</div>
+<a class="back" href="/movies">Go Back</a>
